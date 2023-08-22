@@ -1,0 +1,52 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	background: url(https://media.istockphoto.com/id/1294603953/vector/abstract-black-stripes-diagonal-background.jpg?s=612x612&w=0&k=20&c=nQZHTk-o97cNVqWnUe8BJg0A5jQG0tqylquzbt9YtcQ=);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.calculator{
+	background: url(https://media.istockphoto.com/id/1418960998/photo/black-fabric.webp?b=1&s=170667a&w=0&k=20&c=7ys2K0OPpmJt4l5OoD_XHn0-XpNIRsa6yRSFirrzhRU=);
+	padding: 20px;
+	border: 1px solid #33ffd8;
+	border-radius: 15px;
+	box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+}
+.calculator form input{
+	border: 0;
+	outline: 0;
+	width: 60px;
+	height: 60px;
+	font-size: 22px;
+	border-radius: 12px;
+	box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+	background: transparent;
+	color: #fff;
+	cursor: pointer;
+	margin: 10px;
+}
+form .display{
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px,0;
+	border: 1px solid #33ffd8;
+	border-radius: 15px;
+}
+form .display input{
+	text-align: right;
+	flex:1;
+	font-size:55px;
+	box-shadow: none;
+}
+form input.equal{
+	
+	width: 145px;
+}
+form input.operator{
+	color: #33ffd8;
+}
